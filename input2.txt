@@ -1,0 +1,6 @@
+Main    |:
+        <w> "Ingresa numero"
+        <?> a
+        <w> a/0
+:|
+

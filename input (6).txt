@@ -1,0 +1,18 @@
+### Ejemplo de Jerarquía de Operaciones en Algoritmia ###
+
+Main |:
+    a <- 5
+    b <- 3
+    c <- 2
+    
+    resultado1 <- a + b * c
+    <w> "Resultado sin paréntesis (5 + 3 * 2):" resultado1
+
+    resultado2 <- (a + b) * c
+    <w> "Resultado con paréntesis ((5 + 3) * 2):" resultado2
+
+    resultado3 <- a * b / c + a % c - b
+    <w> "Operaciones mixtas (5 * 3 / 2 + 5 % 2 - 3):" resultado3
+:|
+
+
