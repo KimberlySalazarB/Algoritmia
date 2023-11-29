@@ -1,0 +1,18 @@
+Musica|:
+ 
+  src <- {C,A,B, D, E, F,  G}  
+  dst <- {}
+  aux <- {}
+  HanoR  #src src dst aux
+:|
+
+HanoR  n  src  dst aux  |:
+    if  n > 0 |:
+        HanoR (n - 1)  src  aux dst
+        note <- src [#src ]
+        8< src[#src]
+        dst << note
+        (:) note
+        HanoR(n - 1) aux dst src
+    :|
+:|
